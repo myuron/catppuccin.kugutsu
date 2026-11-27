@@ -20,7 +20,14 @@ kugutsu.plugins.setup({ "myuron/catppuccin.kugutsu" })
 kugutsu.opt.theme = "catppuccin-mocha"
 ```
 
-Then run `kugutsu install` to clone it.
+Then resolve and clone it:
+
+```sh
+kugutsu lock
+kugutsu install
+```
+
+Reload the configuration with `Ctrl-b` `r` (or restart Kugutsu).
 
 Alternatively, copy one of the files in [`colors/`](colors/) to `~/.config/kugutsu/colors/`.
 
